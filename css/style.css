@@ -172,8 +172,8 @@ div {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
 }
-.cases > .content > .icon-list {
-
+.cases > .content {
+	margin-bottom: 8.5rem;
 }
 .cases > .content > .icons > li {
 	display: inline-block;
@@ -183,4 +183,36 @@ div {
 .cases > .content > .icons > li > div > img {
 	/*width: 127px;*/
 	width: 50%;
+}
+.social {
+	text-align: center;
+}
+.social > .content > hr {
+	width: 60%;
+}
+.social h3 {
+	color: black;
+	font-weight: 300;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	font-size: 1.0rem;
+}
+.social .fa-twitter {
+	color: #55acee;
+}
+.social .fa-facebook {
+	color: #4c66a4;
+}
+.social .fa-instagram {
+	color: #3f729b;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
 }
